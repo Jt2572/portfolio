@@ -1,8 +1,6 @@
 import React from "react";
 import image1 from "../../../images/portfolio/project-01.png";
 import image2 from "../../../images/portfolio/project-02.png";
-import image3 from "../../../images/portfolio/project-03.jpg";
-import image4 from "../../../images/portfolio/project-04.jpg";
 import PortfolioItem from "./PortfolioItem";
 
 const portfolioData = [
