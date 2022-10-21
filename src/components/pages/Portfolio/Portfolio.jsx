@@ -16,7 +16,7 @@ const portfolioData = [
     id: 2,
     image: image2,
     title: "Food App",
-    link: "#0",
+    link: "https://food-smoky-eight.vercel.app/",
     description:
       "PI",
   }, 
