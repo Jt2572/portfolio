@@ -10,11 +10,12 @@ import profile from "../../../images/profile.jpg";
 import cvjt from "../../../images/cvjt.pdf"
 console.log('cvjt ', cvjt)
 const socials = [
+
   {
     id: 1,
-    icon: <FaFacebookF />,
-    link: "#0",
-  },
+    icon: <FaLinkedinIn />,
+    link: "https://www.linkedin.com/in/jairo-torres-04161a227",
+  },  
   {
     id: 2,
     icon: <FaGithub />,
@@ -22,19 +23,15 @@ const socials = [
   },
   {
     id: 3,
-    icon: <FaLinkedinIn />,
-    link: "#0",
+    icon: <FaFacebookF />,
+    link: "https://www.facebook.com/profile.php?id=100085178591998",
   },
   {
     id: 4,
-    icon: <FaInstagram />,
-    link: "#0",
-  },
-  {
-    id: 7,
     icon: <FaTwitter />,
-    link: "#0",
+    link: "https://twitter.com/JairoTorres2572",
   },
+  
 ];
 
 const Sidebar = () => {

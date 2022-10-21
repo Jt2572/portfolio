@@ -9,7 +9,7 @@ import About from "../../pages/About/About";
 
 import Contact from "../../pages/Contact/Contact";
 import Portfolio from "../../pages/Portfolio/Portfolio";
-import Service from "../../pages/Service/Service";
+
 
 const navbarData = [
 
@@ -20,16 +20,11 @@ const navbarData = [
   },
   {
     id: 2,
-    title: "Services",
-    to: "/services",
-  },
-  {
-    id: 3,
     title: "Works",
     to: "/works",
   },
   {
-    id: 5,
+    id: 3,
     title: "Contact",
     to: "/contact",
   },
@@ -49,17 +44,13 @@ const Navbar = () => {
       <Switch>
         <Route exact path="/">
           <About />
-        </Route>        
-        <Route path="/services">
-          <Service />
-        </Route>
+        </Route>              
         <Route path="/works">
           <Portfolio />
         </Route>      
         <Route path="/contact">
           <Contact />
-        </Route>
-  
+        </Route>  
       </Switch>
     </Router>
   );
