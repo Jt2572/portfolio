@@ -1,6 +1,7 @@
 import React from "react";
 import image1 from "../../../images/portfolio/project-01.png";
 import image2 from "../../../images/portfolio/project-02.png";
+import image3 from "../../../images/portfolio/project-03.png";
 import PortfolioItem from "./PortfolioItem";
 
 const portfolioData = [
@@ -18,7 +19,15 @@ const portfolioData = [
     title: "Food App",
     link: "https://food-smoky-eight.vercel.app/",
     description:
-      "PI",
+      "This project was built as a requirement to get approved at Henry Bootcamp as a Fullstack Web Developer. React, Redux, Node, Express, PostgreSQL, and Sequelize were technologies used for the development. For styling, I used CSS Modules, and after being approved, I used Tailwind.",
+  }, 
+  {
+    id: 3,
+    image: image3,
+    title: "Personal Project",
+    link: "https://demosass.vercel.app/",
+    description:
+      "This personal project consists of a Landing Page built using React and Sass for the styling.  The main goal of this project was to implement a responsive design in a web project using Sass Pre-processor.",
   }, 
 ];
 
